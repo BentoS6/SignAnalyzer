@@ -1,0 +1,13 @@
+# put your own directory to save images to
+directory:
+  dir: /home/keys/me_meow/code/python_projects/sign_language_analyzer/lib/images
+
+# change this to either 1 or 2 if this doesnt work for you
+webcam:
+  device_index: 0
+
+# classes: number of different signs
+# dataset size: number of images you save to train the model to recognize that particular sign
+values:
+  number_of_classes: 26
+  dataset_size: 100
